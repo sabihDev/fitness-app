@@ -1,9 +1,12 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
+import Welcome from './components/pages/Welcome.vue';
+
 </script>
 
 <template>
-  <HelloWorld msg="Vite + Vue" />
+<div>
+  <Welcome />
+</div>
 </template>
 
 <style scoped>
